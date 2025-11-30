@@ -28,7 +28,7 @@ class Bataille_Corse:
         self.main()
 
     def main(self):
-        image_fond = pygame.image.load("Terminale/Python/projet_final/tapis.jpg").convert()
+        image_fond = pygame.image.load("./tapis.jpg").convert()
         
         pygame.display.set_caption("Bataille Corse")
 
@@ -74,12 +74,12 @@ class Bataille_Corse:
                 val, coul = self.__paquet_mid.sommet().get_attributs()
 
 
-            image_centre = pygame.image.load(f"Terminale/Python/projet_final/{self.__valeur[val - 1]}_{coul}.png")
+            image_centre = pygame.image.load(f".//{self.__valeur[val - 1]}_{coul}.png")
             img_c_width = image_centre.get_width()
             img_c_height = image_centre.get_height()
             self.screen.blit(image_centre, (self.WIDTH // 2 - img_c_width // 2, self.HEIGHT //2 - img_c_height // 2))
             
-            dos_carte = pygame.image.load("Terminale/Python/projet_final/dos_de_carte2.png")
+            dos_carte = pygame.image.load("./dos_de_carte2.png")
             self.screen.blit(dos_carte, (30, 30))
             self.screen.blit(dos_carte, (self.WIDTH - dos_carte.get_width() - 30, 30))
 
