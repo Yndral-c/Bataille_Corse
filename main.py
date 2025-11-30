@@ -1,6 +1,6 @@
 import pygame # type: ignore
 from jeu_de_carte import Jeu_de_cartes
-from pile_prof import Pile
+from pile import Pile
 
 
 class Bataille_Corse:

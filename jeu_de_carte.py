@@ -1,6 +1,6 @@
 import random 
 import cartes
-from file_prof import File
+from file import File
 
 class Jeu_de_cartes:
     """classe définissant un jeu de cartes caractérisé par :
