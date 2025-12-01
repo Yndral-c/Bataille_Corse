@@ -25,7 +25,7 @@ pip install pygame
 ### 2) Cloner le projet
 ```bash
 git clone https://github.com/Yndral-c/Bataille_Corse
-cd <Votre dossier>
+cd Bataille_Corse
 ```
 
 ### 3) Lancer le jeu
@@ -34,3 +34,4 @@ Depuis la racine du projet
 ```bash
 python main.py
 ```
+
